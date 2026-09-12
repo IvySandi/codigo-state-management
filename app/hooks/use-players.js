@@ -23,7 +23,7 @@ export function usePlayers() {
       const response = await fetch(`/api/players${query}`);
       const payload = await response.json();
 
-      console.log("payload res",payload)
+      //console.log("payload res",payload)
 
       if (!response.ok) {
         throw new Error(payload.error || "unable to load players.");
