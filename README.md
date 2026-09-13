@@ -25,7 +25,7 @@ app/
 ├── components/
 │   ├── auth/                   # Login UI
 │   ├── players/                # Player directory
-│   ├── teams/                  # Team CRUD and player-selection modals
+│   ├── teams/                  # Team CRUD and player modals
 │   └── ui/                     # Reusable UI components
 ├── hooks/use-players.js        # Cursor pagination logic
 ├── lib/                        # Storage, validation, and data helpers
